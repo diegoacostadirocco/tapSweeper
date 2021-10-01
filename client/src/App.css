@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.rectangle {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: black;
+}
+.App-header {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.grid {
+  order: 3;
+  user-select: none;
+  position: relative;
+  margin: 10px auto;
+  width: cols * 1em;
+  height: rows * 1em;
+  font-size: size;
+  display: flex;
+  flex-flow: row wrap;
+  border: solid #808080;
+  border-width: 1px 0 0 1px;
+}
+.game-info {
+  /* position: fixed; */
+  /* border-radius: 8px; */
+  /* left: 20px; */
+  /* top: 20px; */
+  /* bottom: 20px; */
+  background-color: greenyellow;
+  border: 4px solid #000000;
+  float: left;
+  width: 100%;
+  margin-right: 10px;
+  text-align: center;
+  overflow: auto;
+}
