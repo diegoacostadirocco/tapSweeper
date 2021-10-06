@@ -6,4 +6,4 @@ Minesweeper with MERN..without mines :)
                 npm start
 
   cd server -> npm  install /
-                npm  start
+                npx nodemon
