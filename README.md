@@ -1,6 +1,6 @@
 # tapsweeper
 
-Minesweeper with MERN..without mines :)
+A peacefull Minesweeper ..without mines :)   MADE IT WITH MERN STACK & LOVE     
 
   cd client -> npm install / 
                 npm start
